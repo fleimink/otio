@@ -1,5 +1,5 @@
 import math
-
+#
 born = """
 Найти напряжение/Find voltage(Volts) = 1
 Найти силу тока/Find current strength(Amps) = 2
