@@ -20,7 +20,9 @@ Windows:
 4. Распакуйте архив
 5. Скопируйте путь распакованной папки
 6. Запустите консоль и вставьте командой "cd ..."
-7. Введите команду "python main.py"
+7. Введите команду "pip install -r requirements.txt"
+8.1 Console: python3 main.py
+8.2 UI: python3 mainui.py
 
 Linux
 1. Скачайте проект с github
@@ -65,7 +67,9 @@ Windows:
 4. Unzip the archive
 5. Copy the path of the unzipped folder
 6. Run the console and paste the command "cd ..."
-7. Enter the command python main.py
+7. Enter the command "pip install -r requirements.txt"
+8.1 Console: python3 main.py
+8.2 UI: python3 mainui.py
 
 linux
 1. Download the project from github
