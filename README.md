@@ -1,5 +1,7 @@
+Проект заморожен на неопределённый срок/The project is frozen indefinitely
 # Otio (Ohm Table in One/Таблица ома в одном)
 Есть русская версия, так и английская/There is a Russian version and an English version
+
 В этом проекте была версия с интерфейсом, но была удалена. В скором времени появится/There was a version with an interface in this project, but it was removed. Coming soon
 
 # Русский
