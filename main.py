@@ -1,5 +1,5 @@
 import math
-#
+
 born = """
 Найти напряжение/Find voltage(Volts) = 1
 Найти силу тока/Find current strength(Amps) = 2
@@ -20,77 +20,83 @@ def voltage():
         if R == "0":
             print("Opps")
         else:
-            ir = int(I) * int(R)
+            ir = float(I) * float(R)
             print(ir)
     elif R == "0":
         if I == "0":
             print("Oops")
         else:
-            pi = int(P) / int(I)
+            pi = float(P) / float(I)
             print(pi)
     elif I == "0":
         if P == "0":
             print("Oops.")
         else:
-            pr = math.sqrt(int(P) * int(R))
-            print(pr)
+            num11 = math.sqrt(float(P))
+            num21 = math.sqrt(float(R))
+            num31 = num11 * num21
+            #pr = math.sqrt(float(P) * float(R))
+            print(num31)
             
 def current():
     if U == "0":
         if R == "0":
             print("Oops")
         else:
-            pdelr = math.sqrt(int(P) / int(R))
-            print(pdelr)
+            num12 = math.sqrt(float(P))
+            num22 = math.sqrt(float(R))
+            num32 = num12 / num22
+            #pdelr = math.sqrt(float(P) / float(R))
+            print(num32)
     elif R == "0":
         if P == "0":
             print("Oops")
         else:
-            pu = int(P) / int(U)
+            pu = float(P) / float(U)
             print(pu)
     elif P == "0":
         if U == "0":
             print("Oops")
         else:
-            ur = int(U) / int(R)
+            ur = float(U) / float(R)
             print(ur)
 def power():
     if U == "0":
         if I == "0":
             print("Oops")
         else:
-            i2r = (int(I) * int(I)) * int(R)
+            i2r = (float(I) * float(I)) * float(R)
             print(i2r)
     elif I == "0":
         if U == "0":
             print("Oops")
         else:
-            u2r = (int(U) * int(U)) / int(R)
+            u2r = (float(U) * float(U)) / float(R)
             print(u2r)
     elif R == "0":
         if I == "0":
             print("Oops")
         else:
-            Ui = int(U) * int(I)
+            Ui = float(U) * float(I)
             print(Ui)
 def resistance():
     if P == "0":
         if I == "0":
             print("Oops")
         else:
-            uidel = int(U) / int(I)
+            uidel = float(U) / float(I)
             print(uidel)
     elif U == "0":
         if P == "0":
             print("Oops")
         else:
-            pi2 = int(P) / (int(I) * int(I))
+            pi2 = float(P) / (float(I) * float(I))
             print(pi2)
     elif I == "0":
         if P == "0":
             print("Oops")
         else:
-            u2p = (int(U) * int(U)) / int(P)
+            u2p = (float(U) * float(U)) / float(P)
             print(u2p)
         
 
