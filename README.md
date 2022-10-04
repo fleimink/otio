@@ -17,13 +17,19 @@
 
 Windows:
 1. Скачайте проект с github
-1.2 git clone https://github.com/fleimink/otio
-2. Скачайте с официального сайта python https://www.python.org/
-3. Установите python
-4. Распакуйте архив
-5. Скопируйте путь распакованной папки
-6. Запустите консоль и вставьте командой "cd ..."
-7. Введите команду "pip install -r requirements.txt"
+
+2.1 git clone https://github.com/fleimink/otio
+
+3. Скачайте с официального сайта python https://www.python.org/
+
+4. Установите python
+
+5. Распакуйте архив
+
+6. Скопируйте путь распакованной папки
+
+7. Запустите консоль и вставьте командой "cd ..."
+
 8 Console: python3 main.py
 
 Linux
@@ -64,14 +70,21 @@ Install:
 
 Windows:
 1. Download the project from github
-1.2 git clone https://github.com/fleimink/otio
-2. Download Python from the official website
-3. Install python
-4. Unzip the archive
-5. Copy the path of the unzipped folder
-6. Run the console and paste the command "cd ..."
-7. Enter the command "pip install -r requirements.txt"
-8 Console: python3 main.py
+
+2.1 git clone https://github.com/fleimink/otio
+
+3. Download Python from the official website
+
+5. Install python
+
+6. Unzip the archive
+
+7. Copy the path of the unzipped folder
+
+8. Run the console and paste the command "cd ..."
+
+
+9 Console: python3 main.py
 
 linux
 1. Download the project from github
