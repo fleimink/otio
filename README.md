@@ -17,6 +17,7 @@
 
 Windows:
 1. Скачайте проект с github
+1.2 git clone https://github.com/fleimink/otio
 2. Скачайте с официального сайта python https://www.python.org/
 3. Установите python
 4. Распакуйте архив
@@ -63,6 +64,7 @@ Install:
 
 Windows:
 1. Download the project from github
+1.2 git clone https://github.com/fleimink/otio
 2. Download Python from the official website
 3. Install python
 4. Unzip the archive
