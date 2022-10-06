@@ -30,7 +30,9 @@ Windows:
 
 7. Запустите консоль и вставьте командой "cd ..."
 
-8 Console: python3 main.py
+8. Console: pip install -r requirements.txt
+
+9 Console: python3 main.py
 
 Linux
 1. Скачайте проект с github
@@ -49,7 +51,9 @@ Linux
 
 6.1 или в папке нажмите правую кнопку мыше и выберите открыть в терминале(GNOME) (В KDE возможно по другому)
 
-7. Введите команду "python3 main.py"
+8. Console: pip install -r requirements.txt
+
+9 Console: python3 main.py
 
 macOS
 
@@ -83,6 +87,7 @@ Windows:
 
 8. Run the console and paste the command "cd ..."
 
+8. Console: pip install -r requirements.txt
 
 9 Console: python3 main.py
 
@@ -103,7 +108,9 @@ linux
 
 6.1 or in a folder, right-click and select open in terminal (GNOME) (In KDE it's different)
 
-7. Enter the command "python3 main.py"
+8. Console: pip install -r requirements.txt
+
+9 Console: python3 main.py
 
 macOS
 
