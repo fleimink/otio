@@ -1,4 +1,9 @@
 import math
+from pyfiglet import Figlet
+
+f = Figlet(font='slant')
+
+print(f.renderText("O T I O"))
 
 born = """
 Найти напряжение/Find voltage(Volts) = 1
