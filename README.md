@@ -55,9 +55,6 @@ Linux
 
 9 Console: python3 main.py
 
-macOS
-
-Про macos ничего сказать не могу, не пользовался
 
 # English
 Ohm table in one - The project, with the goal of which was to record all table actions for finding resistance, ohm strength, voltage and power in one script
@@ -112,6 +109,3 @@ linux
 
 9 Console: python3 main.py
 
-macOS
-
-I can’t say anything about macos, I didn’t use it
