@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>249</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="ukpur">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>83</y>
+      <width>114</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>√P*R</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="uiur">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>I*R</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="updi">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P/I</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="iudr">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>U/R</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="ipdu">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>60</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P/U</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="ikpdr">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>√P/R</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="puui">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>U*I</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="pi2ur">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>I^2*R</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="pu2dr">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>160</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>U^2/R</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="ru2dp">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>U^2/P</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rudi">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>U/I</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rpdi2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>160</y>
+      <width>114</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>P/I^2</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="uText">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>181</width>
+      <height>36</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="iText">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rText">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="pText">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>350</y>
+      <width>103</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Go</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
